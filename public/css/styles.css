@@ -170,6 +170,23 @@ margin-left: 80px;
   margin: 2rem 1rem 0 0;
 }
 
+#inv-display{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-flow: row;
+  gap: 2rem;
+  max-width: 100%;
+  margin: 2rem 1rem 0 0;
+}
+
+#inv-display img{
+  width: 100%;
+  height: 80%;
+}
+
+#inv-display li{
+  list-style-type: none;
+}
 .car-sections{
   display: grid;
   grid-template: 1fr 1fr/1fr 1fr;
